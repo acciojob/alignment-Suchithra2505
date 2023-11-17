@@ -1,12 +1,15 @@
 /*  your css code here. If applicable */
 table,tr,td{
-	border:2px solid black;
+	border:1px solid black;
 	border-collapse:collapse;
 	width:500px;
 	spacing:1px;
 	cell-padding:1px;
 	margin-top:20%;
 	height:10px;
+}
+#table-2>th{
+	colspan:6;
 }
 #table-3  tr:nth-child(1) td {
     background-color: green;
